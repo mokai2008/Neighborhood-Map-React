@@ -10,18 +10,18 @@ class App extends Component {
             'alllocations': [
                 {
                     'name': "Trendz",
-                    'latitude': 31.268759,
-                    'longitude': 32.316086
+                    'latitude': 31.269188,
+                    'longitude': 32.315771
                 },
                 {
                     'name': "Pizza Hut",
-                    'latitude': 31.267691,
-                    'longitude': 32.3128318
+                    'latitude': 31.268012,
+                    'longitude': 32.312843
                 },
                 {
-                    'name': "Mcdonald's",
-                    'latitude': 31.270596,
-                    'longitude': 32.3112684
+                    'name': "ٍSlice",
+                    'latitude': 31.269043,
+                    'longitude': 32.311296
                 },
                 {
                     'name': "Portobello",
@@ -29,7 +29,7 @@ class App extends Component {
                     'longitude': 32.2940547
                 },
                 {
-                    'name': "Quick",
+                    'name': "High Burger",
                     'latitude': 31.2710454,
                     'longitude': 32.3043259
                 },                                                                
