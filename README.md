@@ -13,6 +13,12 @@ The project is about creating a react application for maps so it helps to use Go
 5. Run this command : npm start so now the app is working
 6. Enjoy browsing some restaurants in my city Portsaid, Egypt
 
+## How to run the project in Production Mode :
+
+1. Run the command:  npm run build
+2. Run the command : serve -s build
+3. Finally visit : localhost:5000
+
 ## Tech used :
 HTML5
 CSS3
