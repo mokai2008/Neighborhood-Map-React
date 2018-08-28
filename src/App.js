@@ -197,8 +197,8 @@ function loadScript(url) {
   script.src = url
   script.async = true
   script.defer = true
+  index.parentNode.insertBefore(script, index)
   script.onerror = function() {
       alert("Google Maps can't be loaded")
   }
-  index.parentNode.insertBefore(script, index)
 }
