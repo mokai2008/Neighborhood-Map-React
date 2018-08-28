@@ -19,9 +19,9 @@ class App extends Component {
                     'longitude': 32.312843
                 },
                 {
-                    'name': "ٍSlice",
-                    'latitude': 31.269043,
-                    'longitude': 32.311296
+                    'name': "ُEl Kastan",
+                    'latitude': 31.273608,
+                    'longitude': 32.2977177
                 },
                 {
                     'name': "Portobello",
@@ -148,9 +148,12 @@ class App extends Component {
                     // response information
                     response.json().then(function (data) {
                         var location_data = data.response.venues[0];
+                        var place = '<h3>' + location_data.name + '</h3>';
+                        var street = '<p>' + location_data.location.formattedAddress[0] + '</p>'
+                        var tipCount = '<b>Number of Tips: </b>' + location_data.stats.tipCount + '<br>';
                         var checkinsCount = '<b>Number of CheckIn: </b>' + location_data.stats.checkinsCount + '<br>';
                         var readMore = '<a href="https://foursquare.com/v/'+ location_data.id +'" target="_blank">More information at Foursquare Website</a>'
-                        self.state.infowindow.setContent(checkinsCount  + readMore);
+                        self.state.infowindow.setContent(place + street + tipCount + checkinsCount + readMore);
                     });
                 }
             )
